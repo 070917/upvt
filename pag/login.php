@@ -45,7 +45,7 @@ $helper = $fb->getRedirectLoginHelper();
 $permissions = ['email']; // Optional permissions
 $redirectURL = "https://".$_SERVER['SERVER_NAME']."/fb-callback.php";
 $loginUrl = $helper->getLoginUrl($redirectURL, $permissions);
-echo '<button> <img src="fb.png"> <a href="' . $loginUrl . '">Log in con Facebook!</a>'</button>;
+echo '<button> <img src="fb.png"> <a href="' . $loginUrl . '">Log in con Facebook!</a></button>';
 
  ?>
 
