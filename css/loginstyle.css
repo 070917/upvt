@@ -1,0 +1,92 @@
+*{
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+		#fondo{
+			filter: blur(.5px); /* Desenfoque */
+			position: absolute;  /* No se mueva */
+			width: 100vw;  /* Ancho */
+			height: 100vh; /* Alto */
+			z-index: -1; /* Su posición de profundidad */
+		}
+		section{
+			padding: 3em;
+			width: 100%;
+		}
+		form{
+			background-color: rgba(20,20,20,.8);
+			box-shadow: 2px 2px 12px #222;
+			color: white;
+			font-family: Arial;
+			height: 70vh;
+			margin: 3em auto;
+			padding-top: 2rem;
+			text-align: center;
+			width: 25%;
+			z-index: 100;
+		}
+		h3{
+			font-size: 2rem;
+			margin-top: 3rem;
+			margin-bottom: 1.5rem;
+		}
+		input[type="submit"],input[type="password"],input[type="text"]{
+			font-size: 1rem;
+			padding: 0.5rem;
+			margin: 0.3rem auto;
+			width: 80%;
+		}
+		p{
+			text-align: left;
+			margin: 0.3rem auto;
+			padding-left: 8%;
+		}
+		input[type="submit"]{
+			background-color: rgb(50,152,218);
+			color: white;
+			font-weight: bold;
+			margin-bottom: 1rem;
+		}
+		input[type="button"],button{
+			padding: 0.5rem;
+			margin: 0.3rem auto;
+			width: 35%;
+			background-color: rgb(58,90,152);
+			color: white;
+			font-weight: bold;
+			margin-bottom: 1rem;
+		}
+		button img{
+			vertical-align: top;
+			max-width: 17%;
+		}
+    .insta{
+      vertical-align: top;
+      max-width: 15%;
+    }
+
+		a{
+			color: steelblue;
+			text-decoration: none;
+		}
+		#user{
+			margin: 2px;
+			max-width: 15px;
+			vertical-align: middle;
+		}
+		div{
+			background-color: white;
+			vertical-align: top;
+			width: 85%;
+			margin-left: 8%;
+		}
+    .Instagram{
+      padding: 0.5rem;
+			margin: 0.3rem auto;
+			width: 30%;
+			background-color: rgb(85,90,152);
+			color: white;
+			font-weight: bold;
+			margin-bottom: 1rem;
+    }
