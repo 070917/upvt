@@ -2,9 +2,9 @@
 
 	class Conexion{
 		public $conexion="";
-		public $host = "127.0.0.1";
+		public $host = "174.138.34.221";
 		public $usuario = "root";
-		public $password = "";
+		public $password = "fkkpyVML26.";
 		public $base = "upvt";
 		public $sentencia = "";
 
