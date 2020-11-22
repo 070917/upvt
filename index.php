@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" CONTENT="Autor: A.C. Daniel, Ilustrador: A. Ilustración, Categoría: Desarrollo Web, Precio: 25 $, Número de páginas: 10">
-    <title>DevelopMan: Desarrollo Web en la red de Tor Mexico.</title>
+    <title>DevelopMan</title>
     <meta name="robots" content="noindex,nofollow">
     <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Thasadith:400,700" rel="stylesheet">
@@ -26,8 +26,8 @@
     <div class="hero">
         <div class="contenedor-hero">
             <h1>DevelopMan</h1>
-            <p><i class="fas fa-map-marker-alt"></i>Ciudad de Mexico</p>
-            <a href="https://api.whatsapp.com/send?phone=?" class="boton" target="_blanck">Contactar</a>
+            <p><i class="fas fa-map-marker-alt"></i>Estado de México</p>
+            <a href="https://api.whatsapp.com/send?phone=7221691449" class="boton" target="_blanck">Contactar</a>
 
         </div>
     </div>
