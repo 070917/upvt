@@ -33,7 +33,7 @@
   			Or login with <br>
         <?php
 session_start();
-require_once  'vendor/autoload.php';
+require_once  '../vendor/autoload.php';
 $fb = new Facebook\Facebook([
   'app_id' => '3535111159871793',
   'app_secret' => '220cbee07402135037bd7c3d42ae03b0',
