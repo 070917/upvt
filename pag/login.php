@@ -31,7 +31,24 @@
 
   			?>
   			Or login with <br>
-  			<button> <img src="fb.png" alt=""> Facebook</button>
+        <?php
+session_start();
+require_once  'vendor/autoload.php';
+$fb = new Facebook\Facebook([
+  'app_id' => '3535111159871793',
+  'app_secret' => '220cbee07402135037bd7c3d42ae03b0',
+  'default_graph_version' => 'v3.2',
+  ]);
+
+$helper = $fb->getRedirectLoginHelper();
+
+$permissions = ['email']; // Optional permissions
+$redirectURL = "https://".$_SERVER['SERVER_NAME']."/fb-callback.php";
+$loginUrl = $helper->getLoginUrl($redirectURL, $permissions);
+echo '<button> <img src="fb.png"> <a href="' . $loginUrl . '">Log in con Facebook!</a>'</button>;
+
+ ?>
+
   			<input type="button" value="Instagram"> <br>
   			Don´t have account? <a href="">Signup now</a>
 
