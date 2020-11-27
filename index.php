@@ -19,7 +19,7 @@
             <a href="index.php">Inicio</a>
             <a href="#contacto">Contacto</a>
             <a href="#servicios">Nuestros Servicios</a>
-            <a href="/pag/login.php">Login</a>
+            <a href="/pag/log.php">Login</a>
         </nav>
     </header>
 

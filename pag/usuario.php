@@ -11,7 +11,7 @@
 				header("Location: principal.php");
 			}else{
 				//Lo vamos a mandar al login
-				header("Location: login.php?error=si");
+				header("Location: log.php?error=si");
 			}
 		}
 
